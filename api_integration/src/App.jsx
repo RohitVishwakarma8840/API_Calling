@@ -39,7 +39,14 @@ function App() {
   return (
     <>
   <div>
-<button onClick={getProducts}>Call Product API</button>
+<button onClick={getProducts} style={{
+  marginTop: '24px',
+  display: 'block',
+  gap : '50px',
+}}>Call Product API</button>
+
+<br />
+<br />
 
 <button onClick={addProducts}>Add new Products </button>
 
